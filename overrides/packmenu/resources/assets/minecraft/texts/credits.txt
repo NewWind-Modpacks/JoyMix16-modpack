@@ -1,0 +1,61 @@
+[C]§f============
+[C]§eHelldogPack Team§f -§6 9
+[C]§f============
+ 
+§6Líder
+§f          Kevadroz
+ 
+§eBeta Tester Molongo
+§f          Tigersonic2
+ 
+§aBuilders
+§f          Fernandux22 §a[§0█████§a] §0NULO
+§f          Kevadroz    §a[§4█████§a] §4DEMASIADO
+§f          Marto       §a[§0█████§a] §0NULO
+§f          Phantomime  §a[§0█████§a] §0NULO
+ 
+§5Testers
+§f          Fernandux22 §5[§0█████§5] §0NULO
+§f          Hactaro     §5[§0█████§5] §0NULO
+§f          Kevadroz    §5[§a██§0███§5] §aBASTANTE
+§f          Marto       §5[§e█§0████§5] §ePOCO
+§f          Tigersonic2 §5[§0█████§5] §0NULO
+§f          Zino243     §5[§a██§0███§5] §aBASTANTE
+
+§cDebuggers
+§f          Kevadroz    §c[§e█§0████§c] §ePOCO
+ 
+§dModders
+§f          Grillo78    §5[§0█████§5] §0NULO
+§f          Kevadroz    §5[§0█████§5] §0NULO
+ 
+§4Hosts
+§f          Grillo78
+ 
+§6§lAdministradores del Servidor de Discord
+§f          Fernandux22
+§f          Kevadroz
+ 
+§4Moderadores del Servidor de Discord
+§f          Grillo78
+§f          Tigersonic2
+
+§8Contribuciones Indirectas
+§f          JUEGOS SIN MÁS
+
+[C]§f============
+[C]§eAgradecimientos Especiales
+[C]§f============
+
+§f          Helldogmadness
+§f          Roiniti
+
+§f...Y a todos aquellos que nos hayan apoyado con sugerencias o reportes de errores.
+
+§Y al puto HPBot.
+
+
+
+
+
+§f"Holiwi" §7- Helldogmadness
