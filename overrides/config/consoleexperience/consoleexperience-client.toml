@@ -1,0 +1,156 @@
+
+[general]
+	#Sum up stacks of equal items on shulker box tooltip.
+	"Sum Shulker Box Contents" = true
+	#Enhances vanilla held item tooltips with information about enchantments, potions effects, shulker box contents and much more.
+	"Held Item Tooltips" = true
+	#Superman pose when crouching and gliding at the same time.
+	"Superman Gliding" = true
+	#Show a small player model while the player is performing certain actions such as sprinting, swimming, crouching, flying and gliding.
+	"Paper Doll" = true
+	#Enable the hotbar to hover anywhere on the screen. By default just moves it up a little from the screen bottom.
+	"Hovering Hotbar" = true
+	#Always show player coordinates on screen.
+	"Coordinate Display" = false
+	#Animate eating in third-person view.
+	"Eating Animation" = true
+	#Show an animated icon on the screen whenever the world is being saved (every 45 seconds by default). This only works in singleplayer.
+	"Save Icon" = true
+	#Add a button for closing to every container.
+	"Close Button" = true
+	#Tilt camera according to elytra flight angle.
+	"Elytra Camera Tilt" = true
+	#Hide all hud elements when inside of a container.
+	"Hide Hud" = true
+
+[shulker_tooltip]
+	#Maximum amount of rows on the shulker box tooltip.
+	#Range: > 0
+	"Shulker Box Rows" = 6
+
+[coordinate_display]
+	#Amount of decimal places for the three coordinates.
+	#Range: > 0
+	"Decimal Places" = 0
+	#Offset on x-axis from screen border.
+	#Range: > 0
+	X-Offset = 0
+	#Define a screen corner to show the coordinate display in.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	"Screen Corner" = "TOP_LEFT"
+	#Scale of coordinate display. Works in tandem with "GUI Scale" option in "Video Settings".
+	#Range: 1 ~ 24
+	Scale = 6
+	#Offset on y-axis from screen border.
+	#Range: > 0
+	Y-Offset = 60
+	#Show black chat background behind coordinate display for better visibility.
+	"Draw Background" = true
+
+[close_button]
+	#Offset on x-axis from gui right.
+	#Range: > -2147483648
+	X-Offset = 5
+	#Offset on y-axis from gui top.
+	#Range: > -2147483648
+	Y-Offset = 5
+
+[hovering_hotbar]
+	#Offset on x-axis from screen center.
+	#Range: > -2147483648
+	X-Offset = 0
+	#Offset on y-axis from screen bottom.
+	#Range: > 0
+	Y-Offset = 18
+
+[save_icon]
+	#Offset on x-axis from screen border.
+	#Range: > 0
+	X-Offset = 17
+	#Shift the save icon downwards when it would otherwise overlap with the potion icons. Only applicable when "Screen Corner" is set to "TOP_RIGHT".
+	"Potion Shift" = true
+	#Amount of ticks the save icon will be displayed for. Set to 0 to always display the icon.
+	#Range: > 0
+	"Display Time" = 40
+	#Define a screen corner to display the save icon in.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	"Screen Corner" = "TOP_RIGHT"
+	#Offset on y-axis from screen border.
+	#Range: > 0
+	Y-Offset = 15
+	#Use an animated chest model instead of the static texture.
+	#Allowed Values: BASIC, FANCY, SPINNING
+	"Model Mode" = "SPINNING"
+	#Show a downwards pointing, animated arrow above the save icon.
+	#Allowed Values: HIDDEN, STILL, MOVING, FAST_MOVING
+	"Arrow Mode" = "MOVING"
+
+[elytra_tilt]
+	#Multiplier for the camera tilt when gliding.
+	#Range: 0.1 ~ 1.0
+	"Tilt Multiplier" = 0.5
+
+[paper_doll]
+	#Offset on x-axis from original doll position.
+	#Range: > -2147483648
+	X-Offset = 0
+	#Display paper doll while performing these actions.
+	#Allowed Values: SPRINTING, SWIMMING, CRAWLING, CROUCHING, FLYING, GLIDING, RIDING, SPIN_ATTACKING, USING
+	"Display Actions" = ["SPRINTING", "SWIMMING", "CRAWLING", "CROUCHING", "FLYING", "GLIDING"]
+	#Shift paper doll downwards when it would otherwise overlap with potion icons. Only applicable when "Screen Corner" is set to "TOP_RIGHT".
+	"Potion Shift" = true
+	#Amount of ticks the paper doll will be kept on screen after its display conditions are no longer met. Set to 0 to always display the doll.
+	#Range: > 0
+	"Display Time" = 12
+	#Define a screen corner to display the paper doll in.
+	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	"Screen Corner" = "TOP_LEFT"
+	#Scale of paper doll. Works in tandem with "GUI Scale" option in "Video Settings".
+	#Range: 1 ~ 24
+	Scale = 4
+	#Offset on y-axis from original doll position.
+	#Range: > -2147483648
+	Y-Offset = 0
+	#Set axis the player head can move on.
+	#Allowed Values: YAW, PITCH, BOTH
+	"Head Movement" = "YAW"
+	#Only show paper doll when in first person mode.
+	"First Person" = true
+
+[hide_hud]
+	#Delay after which hud elements appear again.
+	#Range: > 1
+	"Hide Delay" = 8
+
+[selected_item]
+	#Maximum amount of rows to be displayed for held item tooltips.
+	#Range: > 1
+	"Maximum Rows" = 4
+	#Enable tooltip information added by other mods to be included on the tooltip.
+	"Modded Information" = false
+	#Offset on x-axis from screen center.
+	#Range: > -2147483648
+	X-Offset = 0
+	#Show how many more lines there are that currently don't fit the tooltip.
+	"Last Line" = true
+	#Amount of ticks the held item tooltip will be displayed for. Set to 0 to always display the tooltip as long as an item is being held.
+	#Range: > 0
+	"Display Time" = 40
+	#Scale of held item tooltips. Works together with "GUI Scale" option in "Video Settings". A smaller scale might make room for more rows.
+	#Range: 1 ~ 24
+	Scale = 6
+	#Offset on y-axis from screen bottom.
+	#Range: > 0
+	Y-Offset = 59
+	#Default text color used in json config.
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+	"Default Color" = "GRAY"
+	#Disables held item tooltips for specified items and mods, mainly to prevent custom tooltips from overlapping. Enter as either "modid:item" or "modid" respectively.
+	Blacklist = []
+	#Show black chat background behind tooltip lines for better visibility.
+	#Allowed Values: NONE, RECTANGLE, ADAPTIVE
+	"Background Mode" = "NONE"
+	#Interval in ticks after which the tooltip will be remade. Some stats such as durability aren't affected.
+	#Range: > 1
+	"Update Interval" = 20
+

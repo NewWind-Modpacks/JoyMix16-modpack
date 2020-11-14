@@ -1,0 +1,145 @@
+{
+  "__comment": "Available colors can be found on the Minecraft Wiki: https://minecraft.gamepedia.com/Formatting_codes",
+  "name": {
+    "__comment": "Name of the item",
+    "enabled": true,
+    "ordering": 2,
+    "priority": 20,
+    "formatting": {
+      "color": "default",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    }
+  },
+  "information": {
+    "__comment": "Additional information supplied by individual items",
+    "enabled": true,
+    "ordering": 4,
+    "priority": 19,
+    "formatting": {
+      "color": "default",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    },
+    "advanced": true
+  },
+  "enchantments": {
+    "__comment": "Enchantments this item has",
+    "enabled": true,
+    "ordering": 6,
+    "priority": 17,
+    "formatting": {
+      "color": "default",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    }
+  },
+  "color_tag": {
+    "__comment": "Color data for colored items",
+    "enabled": true,
+    "ordering": 8,
+    "priority": 15,
+    "formatting": {
+      "color": "gray",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    },
+    "advanced": true
+  },
+  "lore_tag": {
+    "__comment": "Custom lore tag",
+    "enabled": true,
+    "ordering": 10,
+    "priority": 12,
+    "formatting": {
+      "color": "dark_purple",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": true
+    }
+  },
+  "modifiers": {
+    "__comment": "Attributes this item has",
+    "enabled": false,
+    "ordering": 12,
+    "priority": 5,
+    "formatting": {
+      "color": "default",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    }
+  },
+  "unbreakable": {
+    "__comment": "Shown if this item is unbreakable",
+    "enabled": true,
+    "ordering": 14,
+    "priority": 7,
+    "formatting": {
+      "color": "blue",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    }
+  },
+  "durability": {
+    "__comment": "Durability if the item is damageable and has been used",
+    "enabled": true,
+    "ordering": 16,
+    "priority": 18,
+    "formatting": {
+      "color": "default",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    }
+  },
+  "name_id": {
+    "__comment": "Internal id of the item",
+    "enabled": false,
+    "ordering": 18,
+    "priority": 5,
+    "formatting": {
+      "color": "dark_gray",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    }
+  },
+  "nbt_amount": {
+    "__comment": "Amount of nbt tags the item has",
+    "enabled": false,
+    "ordering": 20,
+    "priority": 4,
+    "formatting": {
+      "color": "dark_gray",
+      "obfuscated": false,
+      "bold": false,
+      "strikethrough": false,
+      "underline": false,
+      "italic": false
+    }
+  }
+}
