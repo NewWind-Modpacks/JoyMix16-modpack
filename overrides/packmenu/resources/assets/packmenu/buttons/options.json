@@ -1,9 +1,10 @@
 {
-	"x": -100,
-	"y": 84,
-	"width": 98,
+	"x": -101,
+	"y": 24,
+	"width": 100,
 	"height": 20,
 	"langKey": "menu.options",
 	"action": "OPEN_GUI",
-	"data": "OPTIONS"
+	"data": "OPTIONS",
+	"anchor": "MIDDLE_RIGHT"
 }
