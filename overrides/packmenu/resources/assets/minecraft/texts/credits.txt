@@ -1,5 +1,5 @@
 [C]§f============
-[C]§eHelldogPack Team§f -§6 9
+[C]§eHelldogPack Team§f -§6 8
 [C]§f============
  
 §6Líder
@@ -11,8 +11,8 @@
 §aBuilders
 §f          Fernandux22 §a[§0█████§a] §0NULO
 §f          Kevadroz    §a[§4█████§a] §4DEMASIADO
-§f          Marto       §a[§0█████§a] §0NULO
-§f          Phantomime  §a[§0█████§a] §0NULO
+§f          Marto       §a[§e█§0████§a] §ePOCO
+§f          Zino243     §a[§e█§0████§a] §ePOCO
  
 §5Testers
 §f          Fernandux22 §5[§0█████§5] §0NULO
@@ -23,11 +23,12 @@
 §f          Zino243     §5[§a██§0███§5] §aBASTANTE
 
 §cDebuggers
-§f          Kevadroz    §c[§e█§0████§c] §ePOCO
+§f          Kevadroz    §c[§a██§0███§c] §aBASTANTE
+§f          Zino243     §c[§e█§0████§c] §ePOCO
  
 §dModders
 §f          Grillo78    §5[§0█████§5] §0NULO
-§f          Kevadroz    §5[§0█████§5] §0NULO
+§f          Kevadroz    §5[§e█§0████§5] §ePOCO
  
 §4Hosts
 §f          Grillo78
