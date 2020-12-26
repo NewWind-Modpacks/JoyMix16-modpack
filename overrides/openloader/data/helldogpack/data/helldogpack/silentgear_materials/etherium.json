@@ -1,0 +1,53 @@
+
+{
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.enigmaticlegacy.etherium"
+  },
+  "stats": {
+    "main": {
+      "durability": 2000.0,
+      "armor_durability": 132.0,
+      "enchantability": 28.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 8.0,
+      "melee_damage": 5.0,
+      "magic_damage": 0.0,
+      "attack_speed": -0.1,
+      "armor": 24.0,
+      "armor_toughness": 16.0,
+      "magic_armor": 0.0,
+      "ranged_damage": 3.5,
+      "ranged_speed": 0.3,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 90.0,
+      "silentgems:chargeability": 1.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 6
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 4
+      },
+    ]
+  }
+}
