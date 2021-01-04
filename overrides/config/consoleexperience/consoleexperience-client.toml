@@ -1,23 +1,27 @@
 
 [general]
-	#Sum up stacks of equal items on shulker box tooltip.
-	"Sum Shulker Box Contents" = true
 	#Enhances vanilla held item tooltips with information about enchantments, potions effects, shulker box contents and much more.
 	"Held Item Tooltips" = true
-	#Superman pose when crouching and gliding at the same time.
-	"Superman Gliding" = true
-	#Show a small player model while the player is performing certain actions such as sprinting, swimming, crouching, flying and gliding.
-	"Paper Doll" = true
+	#Color item tooltips in a cyan shade just like on Console Edition.
+	"Tinted Tooltip" = false
 	#Enable the hotbar to hover anywhere on the screen. By default just moves it up a little from the screen bottom.
 	"Hovering Hotbar" = true
+	#A collection of small animations for the player model.
+	"Player Animations" = true
 	#Always show player coordinates on screen.
 	"Coordinate Display" = false
-	#Animate eating in third-person view.
-	"Eating Animation" = true
-	#Show an animated icon on the screen whenever the world is being saved (every 45 seconds by default). This only works in singleplayer.
-	"Save Icon" = true
 	#Add a button for closing to every container.
 	"Close Button" = true
+	#Replace boring dirt backgrounds with the fancy main menu panorama and some bold fonts.
+	"Fancy Menus" = true
+	#Sum up stacks of equal items on shulker box tooltip.
+	"Sum Shulker Box Contents" = true
+	#Show a small player model while the player is performing certain actions such as sprinting, swimming, crouching, flying and gliding.
+	"Paper Doll" = true
+	#Add remaining duration to potion icons shown in-game.
+	"Potion Time" = false
+	#Show an animated icon on the screen whenever the world is being saved (every 45 seconds by default). This only works in singleplayer.
+	"Save Icon" = true
 	#Tilt camera according to elytra flight angle.
 	"Elytra Camera Tilt" = true
 	#Hide all hud elements when inside of a container.
@@ -59,9 +63,13 @@
 	#Offset on x-axis from screen center.
 	#Range: > -2147483648
 	X-Offset = 0
+	#Move chat together with hotbar on the vertical axis.
+	"Move Chat" = true
 	#Offset on y-axis from screen bottom.
 	#Range: > 0
 	Y-Offset = 18
+	#Compatibility mode for screen elements from mods that normally go unaffected. May have an unwanted impact on other elements, too. Tinker around with modes 1-3, setting to 0 will disable this mode.
+	"Compatibility Mode" = 0
 
 [save_icon]
 	#Offset on x-axis from screen border.
@@ -104,7 +112,7 @@
 	"Display Time" = 12
 	#Define a screen corner to display the paper doll in.
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-	"Screen Corner" = "TOP_LEFT"
+	"Screen Corner" = "TOP_RIGHT"
 	#Scale of paper doll. Works in tandem with "GUI Scale" option in "Video Settings".
 	#Range: 1 ~ 24
 	Scale = 4
@@ -114,20 +122,22 @@
 	#Set axis the player head can move on.
 	#Allowed Values: YAW, PITCH, BOTH
 	"Head Movement" = "YAW"
-	#Only show paper doll when in first person mode.
+	#Only show paper doll when in first-person mode.
 	"First Person" = true
 
 [hide_hud]
 	#Delay after which hud elements appear again.
 	#Range: > 1
 	"Hide Delay" = 8
+	#Compatibility mode for screen elements from mods that normally go unaffected. May have an unwanted impact on other elements, too. Tinker around with modes 1-3, setting to 0 will disable this mode.
+	"Compatibility Mode" = 0
 
 [selected_item]
 	#Maximum amount of rows to be displayed for held item tooltips.
 	#Range: > 1
 	"Maximum Rows" = 4
 	#Enable tooltip information added by other mods to be included on the tooltip.
-	"Modded Information" = false
+	"Modded Information" = true
 	#Offset on x-axis from screen center.
 	#Range: > -2147483648
 	X-Offset = 0
@@ -145,12 +155,33 @@
 	#Default text color used in json config.
 	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
 	"Default Color" = "GRAY"
-	#Disables held item tooltips for specified items and mods, mainly to prevent custom tooltips from overlapping. Enter as either "modid:item" or "modid" respectively.
-	Blacklist = []
+	#Disables held item tooltips for specified items, mainly to prevent custom tooltips from overlapping.
+	#Format for every entry is "<namespace>:<path>". Path may use single asterisk as wildcard parameter.
+	Blacklist = ["silentgear:sword","silentgear:katana","silentgear:machete","silentgear:spear","silentgear:knife","silentgear:dagger","silentgear:pickaxe","silentgear:shovel","silentgear:axe","silentgear:paxel","silentgear:hammer","silentgear:excavator","silentgear:saw","silentgear:prospector_hammer","silentgear:mattock","silentgear:sickle","silentgear:shears","silentgear:bow","silentgear:crossbow","silentgear:slingshot","silentgear:shield","silentgear:arrow","silentgear:helmet","silentgear:chestplate","silentgear:leggings","silentgear:boots","silentgear:elytra","silentgear:ring","silentgear:bracelet"]
 	#Show black chat background behind tooltip lines for better visibility.
 	#Allowed Values: NONE, RECTANGLE, ADAPTIVE
 	"Background Mode" = "NONE"
 	#Interval in ticks after which the tooltip will be remade. Some stats such as durability aren't affected.
 	#Range: > 1
 	"Update Interval" = 20
+
+[tinted_tooltip]
+	#Color for tooltip background as RGBA in decimal form.
+	#Range: > -2147483648
+	"Background Color" = -851356582
+	#Color for tooltip border as RGBA in decimal form.
+	#Range: > -2147483648
+	"Border Color" = -986896
+
+[player_animations]
+	#Superman pose when crouching and gliding at the same time.
+	"Superman Gliding" = true
+	#Subtle hand swing animation in first-person mode while standing still.
+	"Hand Idle Animation" = true
+	#The player's arms actually move when rowing in a boat.
+	"Rowing Animation" = false
+	#Animate eating in third-person view.
+	"Eating Animation" = true
+	#Fall into bed slowly and smoothly.
+	"Falling Asleep" = true
 
