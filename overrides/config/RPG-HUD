@@ -1,6 +1,6 @@
 Version=1.0
 H:hud_type=extended
-B:enable_button_tooltip=false
+B:enable_button_tooltip=true
 B:reduce_size=false
 B:show_armor=true
 B:show_arrow_count=true
