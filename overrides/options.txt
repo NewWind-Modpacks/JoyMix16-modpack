@@ -23,13 +23,13 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:1.0
-renderDistance:6
+renderDistance:8
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
 maxFps:260
 difficulty:2
-graphicsMode:2
+graphicsMode:1
 ao:2
 biomeBlendRadius:2
 renderClouds:true
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -64,7 +64,7 @@ rawMouseInput:false
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 hideMatchedNames:true
-joinedFirstServer:true
+joinedFirstServer:false
 syncChunkWrites:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
@@ -197,8 +197,8 @@ key_key.jei.previousPage:key.keyboard.page.up
 key_key.jei.nextPage:key.keyboard.page.down
 key_key.jei.bookmark:key.keyboard.a
 key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
-soundCategory_master:0.307947
-soundCategory_music:0.2535211
+soundCategory_master:1.0
+soundCategory_music:0.25
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
