@@ -232,7 +232,7 @@
 	"Ancient Tomes" = true
 	"Bottled Cloud" = true
 	Camera = true
-	"Color Runes" = false
+	"Color Runes" = true
 	"Pathfinder Maps" = true
 	Pickarang = true
 	"Seed Pouch" = true
