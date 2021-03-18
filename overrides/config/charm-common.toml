@@ -4,7 +4,7 @@
 "AnvilImprovements enabled" = true
 #Lightweight armor is invisible and does not increase mob awareness when drinking Potion of Invisibility.
 "ArmorInvisibility enabled" = true
-#A map storage.
+#Storage for maps that automatically updates the displayed map as you explore.
 "Atlas enabled" = true
 #Refills your hotbar from your inventory.
 "AutoRestock enabled" = true
@@ -139,16 +139,32 @@
 "WitchesDropLuck enabled" = true
 #A functional block that adds more efficient recipes for crafting wooden stairs and slabs.
 "Woodcutters enabled" = true
+#Aerial Affinity is a boots enchantment that increases mining rate when not on the ground.
+"AerialAffinity enabled" = true
+#Adds custom recipes.
+"ExtraRecipes enabled" = true
+#Show maps in tooltips.
+"MapTooltips enabled" = true
+#Crying obsidian and refined obsidian can be used to construct nether portal frames.
+"MorePortalFrames enabled" = true
+#Player-only pressure plates.
+"PlayerPressurePlates enabled" = true
 
 [AnvilImprovements]
+	#If true, an enchanted book with a level higher than the maximum enchantment level may be applied to an item.
+	"Allow higher enchantment levels" = true
+	#If true, items show their repair cost in their tooltip when looking at the anvil screen.
+	"Show item repair cost" = true
 	#If true, removes the maximum cost of 40 XP when working items on the anvil.
 	"Remove Too Expensive" = true
 	#If true, anvils are 50% less likely to take damage when used.
 	"Stronger anvils" = true
 
 [Atlas]
-	#The atlas will create maps of this size (0-4).
-	"Map Size" = 2
+	#Allow opening the atlas while it is in the off hand.
+	"Open in off hand" = false
+	#Map scale used in atlases by default.
+	"Map scale" = 0
 
 [AutomaticRecipeUnlock]
 	#This module is automatically disabled if Quark is present. Set true to force enable.
@@ -161,6 +177,8 @@
 	"Viewing range" = 24
 
 [Beekeepers]
+	#Chance of a custom building to spawn. For reference, a vanilla library is 5.
+	"Beekeeper house weight" = 5
 	#This module is automatically disabled if Buzzier Bees is present. Set true to force enable.
 	Override = false
 
@@ -271,10 +289,6 @@
 [MusicImprovements]
 	#If true, the six Creative music tracks may play in survival mode.
 	"Play Creative music" = true
-
-[PathToDirt]
-	#This module is automatically disabled if Quark is present. Set true to force enable.
-	Override = false
 
 [PlayerState]
 	#Interval (in ticks) on which additional world state will be synchronised to the client.
@@ -387,4 +401,32 @@
 [WitchesDropLuck]
 	#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed by the player.
 	"Drop chance" = 0.05
+
+[ExtraRecipes]
+	#If true, adds a recipe for Gilded Blackstone using gold nuggets and blackstone.
+	"Gilded Blackstone" = true
+	#If true, adds a recipe for Cyan Dye using warped roots.
+	"Cyan Dye" = true
+	#If true, adds a recipe for the Trident using prismarine shards and crystals.
+	Trident = true
+	#If true, adds a recipe for Soul Torches using soul sand/soul soil and sticks.
+	"Soul Torch" = true
+	#If true, adds a recipe for Green Dye using yellow and blue dyes.
+	"Green Dye" = true
+
+[FeatherFallingCrops]
+	#Turn this off to prevent trampling even when the player does not wear feather falling boots.
+	"Requires feather falling" = true
+
+[Lumberjacks]
+	#Chance of a custom building to spawn. For reference, a vanilla library is 5.
+	"Lumberjack house weight" = 5
+
+[MapTooltips]
+	#This module is automatically disabled if Quark is present. Set true to force enable.
+	Override = false
+
+[PlayerPressurePlates]
+	#This module is automatically disabled if Quark is present. Set true to force enable.
+	Override = false
 

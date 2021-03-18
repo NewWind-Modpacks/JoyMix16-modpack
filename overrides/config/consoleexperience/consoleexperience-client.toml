@@ -157,7 +157,7 @@
 	"Default Color" = "GRAY"
 	#Disables held item tooltips for specified items, mainly to prevent custom tooltips from overlapping.
 	#Format for every entry is "<namespace>:<path>". Path may use single asterisk as wildcard parameter.
-	Blacklist = ["silentgear:sword","silentgear:katana","silentgear:machete","silentgear:spear","silentgear:knife","silentgear:dagger","silentgear:pickaxe","silentgear:shovel","silentgear:axe","silentgear:paxel","silentgear:hammer","silentgear:excavator","silentgear:saw","silentgear:prospector_hammer","silentgear:mattock","silentgear:sickle","silentgear:shears","silentgear:bow","silentgear:crossbow","silentgear:slingshot","silentgear:shield","silentgear:arrow","silentgear:helmet","silentgear:chestplate","silentgear:leggings","silentgear:boots","silentgear:elytra","silentgear:ring","silentgear:bracelet"]
+	Blacklist = ["silentgear:sword", "silentgear:katana", "silentgear:machete", "silentgear:spear", "silentgear:knife", "silentgear:dagger", "silentgear:pickaxe", "silentgear:shovel", "silentgear:axe", "silentgear:paxel", "silentgear:hammer", "silentgear:excavator", "silentgear:saw", "silentgear:prospector_hammer", "silentgear:mattock", "silentgear:sickle", "silentgear:shears", "silentgear:bow", "silentgear:crossbow", "silentgear:slingshot", "silentgear:shield", "silentgear:arrow", "silentgear:helmet", "silentgear:chestplate", "silentgear:leggings", "silentgear:boots", "silentgear:elytra", "silentgear:ring", "silentgear:bracelet"]
 	#Show black chat background behind tooltip lines for better visibility.
 	#Allowed Values: NONE, RECTANGLE, ADAPTIVE
 	"Background Mode" = "NONE"
@@ -179,7 +179,7 @@
 	#Subtle hand swing animation in first-person mode while standing still.
 	"Hand Idle Animation" = true
 	#The player's arms actually move when rowing in a boat.
-	"Rowing Animation" = false
+	"Rowing Animation" = true
 	#Animate eating in third-person view.
 	"Eating Animation" = true
 	#Fall into bed slowly and smoothly.

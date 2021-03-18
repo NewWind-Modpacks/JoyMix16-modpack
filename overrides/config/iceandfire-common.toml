@@ -97,7 +97,7 @@
 	#How high stymphalian birds can fly, in Y height.
 	#Range: > 10
 	"Max Stymphalian Bird Flight Height" = 80
-	#Whitelist structure gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 	blacklistDimensions = ["minecraft:overworld"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
@@ -248,6 +248,9 @@
 	"Dangerous World Gen Dist Seperation" = 300
 	#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
 	"Explosive Dragon Breath" = false
+	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
+	#Range: > 1
+	"Dragon Pathfinding Threads" = 3
 	#Base Myrmex(worker) attack strength
 	#Range: 1.0 ~ 10000.0
 	"Myrmex Base Attack Strength" = 3.0
@@ -281,7 +284,7 @@
 	#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 	#Range: 1 ~ 10000
 	"Amphithere Villager Search Length" = 64
-	#Deathworm spawn weight. Lower = lower chance to spawn
+	#Deathworm spawn weight. Higher = lower chance to spawn
 	#Range: 1 ~ 10000
 	"Death Worm Spawn Weight" = 30
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
@@ -330,6 +333,9 @@
 	"Dragons Drop Skull" = true
 	#True if sea serpents are allowed to spawn
 	"Spawn Sea Serpents" = true
+	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
+	#Range: > 1
+	"Dragon Max Pathfinding Nodes" = 5000
 	#True if the summon crystal can load chunks to find dragons.
 	"Chunk Load Summon Crystal" = true
 	#Amount of damage done with cyclops bite attack.
@@ -338,6 +344,9 @@
 	#Amphithere attack strength
 	#Range: 1.0 ~ 10000.0
 	"Amphithere Attack Strength" = 7.0
+	#Graveyard rarity.
+	#Range: 2 ~ 10000
+	"Graveyard Chance" = 46
 	#Max dragon attack damage. Attack Damage is scaled to this
 	#Range: 1 ~ 10000
 	"Dragon Attack Damage" = 17

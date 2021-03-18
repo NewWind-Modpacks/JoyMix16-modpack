@@ -1,0 +1,73 @@
+ {
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "subs": {
+      "rod": {
+        "item": "enigmaticlegacy:ender_rod"
+      }
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.ender_rod"
+  },
+  "stats": {
+    "rod": {
+      "durability": {
+        "mul2": 0.25
+      },
+      "enchantability": {
+          "mul2": 0.1
+      },
+      "harvest_speed": {
+        "mul2": 0.3
+      },
+      "silentgear:reach_distance": {
+        "add": 1.5
+      },
+      "melee_damage": {
+        "mul2": 0.3
+      },
+      "silentgear:attack_speed": {
+        "add": 0.25
+      },
+      "silentgear:ranged_damage": {
+        "mul2": 5.2
+      },
+      "silentgear:ranged_speed": {
+        "mul2": 0.8
+      },
+      "silentgear:projectile_speed": {
+        "mul2": 0.45
+      },
+      "silentgear:projectile_accuracy": {
+        "add": 2.1
+      },
+      "silentgems:chargeability": 2.5,
+      "rarity": 85.0
+    }
+  },
+  "traits": {
+    "rod": [
+      {
+        "name": "silentgear:ancient",
+        "level": 2
+      },
+      {
+        "name": "silentgear:magnetic",
+        "level": 5
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 3
+      }
+    ]
+  }
+}

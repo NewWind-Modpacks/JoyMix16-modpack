@@ -1,0 +1,63 @@
+ {
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "enigmaticlegacy:etherium_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.etherium"
+  },
+  "stats": {
+    "main": {
+      "durability": 13107.2,
+      "armor_durability": 132.0,
+      "enchantability": 28.0,
+      "harvest_level": 5.0,
+      "harvest_speed": 30.0,
+      "melee_damage": 22.0,
+      "magic_damage": 24.0,
+      "attack_speed": 0.15,
+      "armor": 35.0,
+      "magic_armor": 18.0,
+      "ranged_damage": 1.5,
+      "ranged_speed": 1.75,
+      "projectile_speed": 2.2,
+      "projectile_accuracy": 1.1,
+      "rarity": 105.0,
+      "silentgems:chargeability": 2.65
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:ancient",
+        "level": 4
+      },
+      {
+        "name": "silentgear:brilliant",
+        "level": 1
+      },
+      {
+        "name": "silentgear:malleable",
+        "level": 5
+      },
+      {
+        "name": "silentgear:stellar",
+        "level": 4
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 5
+      }
+    ]
+  }
+}

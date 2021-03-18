@@ -1,0 +1,46 @@
+{
+  "availability": {
+    "tier": 5,
+    "visible": true,
+    "gear_blacklist": ["tool","projectile"],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "byg:ametrine_gems"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.ametrine"
+  },
+  "name_prefix": {
+    "translate": "material.helldogpack.ametrine"
+  },
+  "stats": {
+    "coating": {
+      "durability": [
+        {
+          "mul2": 0.6
+        },
+        {
+          "add": 7.0
+        }
+      ],
+      "armor": {
+        "mul2": 0.2
+      },
+      "armor_durability": {
+        "mul2": 0.181818181818182
+      },
+      "armor_toughness": {
+        "add": 4.8
+      },
+      "knockback_resistance": {
+        "add": 1.5
+      },
+      "enchantability": {
+        "add": 5.0
+      }
+    }
+  }
+}

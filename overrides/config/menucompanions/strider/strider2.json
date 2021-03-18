@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:strider",
+  "weight": 2,
+  "display": {
+    "scale": 1.0,
+    "xoffset": -25,
+    "yoffset": 77,
+    "nameplate": false,
+    "particles": true,
+    "volume": 0.5,
+    "side": "LEFT"
+  },
+  "data": {
+    "nbt": "{Age: -24000}",
+    "tick": true,
+    "onground": true,
+    "inwater": true,
+    "aggressive": false,
+    "inlove": false,
+    "walk": false,
+    "crouch": false
+  }
+}

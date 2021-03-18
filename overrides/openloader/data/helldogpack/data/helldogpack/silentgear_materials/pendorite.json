@@ -1,0 +1,46 @@
+{
+  "availability": {
+    "tier": 5,
+    "visible": true,
+    "gear_blacklist": ["armor","curio"],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "byg:pendorite_scraps"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.pendoite"
+  },
+  "name_prefix": {
+    "translate": "material.helldogpack.pendoite"
+  },
+  "stats": {
+    "coating": {
+      "durability": [
+        {
+          "mul2": 0.6
+        },
+        {
+          "add": 7.0
+        }
+      ],
+      "harvest_speed": {
+        "mul2": 0.1875
+      },
+      "harvest_level": {
+        "max": 5.0
+      },
+      "melee_damage": {
+        "mul2": 0.45
+      },
+      "magic_damage": {
+        "mul2": 0.45
+      },
+      "enchantability": {
+        "add": 5.0
+      }
+    }
+  }
+}

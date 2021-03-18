@@ -10,14 +10,14 @@
  
 §aBuilders
 §f          Fernandux22 §a[§0█████§a] §0NULO
-§f          Kevadroz    §a[§4█████§a] §4DEMASIADO
+§f          Kevadroz    §a[§4█████§a] §4ABUSO
 §f          Marto       §a[§e█§0████§a] §ePOCO
 §f          Zino243     §a[§e█§0████§a] §ePOCO
  
 §5Testers
 §f          Fernandux22 §5[§0█████§5] §0NULO
 §f          Hactaro     §5[§0█████§5] §0NULO
-§f          Kevadroz    §5[§a██§0███§5] §aBASTANTE
+§f          Kevadroz    §5[§b███§0██§5] §bMUCHO
 §f          Marto       §5[§e█§0████§5] §ePOCO
 §f          Tigersonic2 §5[§0█████§5] §0NULO
 §f          Zino243     §5[§a██§0███§5] §aBASTANTE

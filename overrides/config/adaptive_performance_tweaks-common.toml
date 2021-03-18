@@ -1,0 +1,196 @@
+
+#Adaptive Performance Tweaks (General configuration)
+[Optimization]
+	#Enable/Disable optimization which are happening during player login.
+	optimizePlayerLogin = true
+	#Enable/Disable view distance optimization depending on the server load.
+	optimizeViewDistance = true
+	#Enable/Disable passive mobs optimization depending on the server load.
+	optimizePassiveMobs = true
+	#Enable/Disable neutral mobs optimization depending on the server load.
+	optimizeNeutralMobs = true
+	#Enable/Disable hostile mobs optimization depending on the server load.
+	optimizeHostileMobs = true
+
+[Limits]
+	#Defines the max. number of items per type which are allowed to lay around in the world.
+	#Range: 10 ~ 100
+	maxNumberOfItemsPerType = 32
+	#Defines the max. number of items which are allowed to lay around in a single world.
+	#Range: 10 ~ 1000
+	maxNumberOfItems = 128
+
+#View area optimization, should be only adjusted if really needed!
+["View Area"]
+	#Max. number of X blocks relative to the player position considered inside a chunk for the view area.
+	#Range: 1 ~ 16
+	viewAreaXFactor = 16
+	#Max. number of Y blocks relative to the player position considered inside a chunk for the view area.
+	#Range: 1 ~ 16
+	viewAreaYFactor = 4
+	#Max. number of Z blocks relative to the player position considered inside a chunk for the view area.
+	#Range: 1 ~ 16
+	viewAreaZFactor = 16
+	#Factor per view-distance which is used to calculated the view area of the player.
+	#Range: 0.1 ~ 1.0
+	viewAreaDistanceFactor = 0.75
+
+#View / render distance optimization.
+["View Distance"]
+	#Range: 2 ~ 32
+	viewDistanceMax = 16
+	#Range: 2 ~ 16
+	viewDistanceMin = 2
+	#Range: 2 ~ 16
+	viewDistanceDefault = 12
+
+[Gamerule]
+	#Enable/Disable dynamic gamerule adjustments.
+	gameruleEnabled = false
+	#Defines the max. numbers of mob singularity on a single block.
+	#Range: 0 ~ 64
+	maxEntityCramming = 24
+	#Defines the speed of crops grow, leaf decay, redstone, ... per chunk
+	#Range: 1 ~ 256
+	randomTickSpeed = 3
+
+#Spawn optimization
+#Playing with difficulty HARD could exceed the max number of hostile entity from the 
+#config file by 1.5x.
+#These settings affects all mobs which are not covered by other parts of this config
+[Spawn]
+	#Defines the max. number of a mobs per entity type within player radius.
+	#Range: 1 ~ 10
+	maxEntityPerPlayer = 8
+	#Defines the max. number of mobs per entity type within a world.
+	#Range: 1 ~ 100
+	maxEntityPerWorld = 40
+	#General allow list for spawn entities (e.g. minecraft:squid) which should be ignored for optimization.
+	allowList = [""]
+	#General deny list for spawn entities (e.g. minecraft:bat) to no longer spawn in all worlds.
+	denyList = [""]
+
+	[Spawn.Minecraft]
+		minecraftEnabled = true
+		#e.g. mostly bats
+		#Range: 1 ~ 10
+		minecraftMaxPassiveMobsPerPlayer = 1
+		#Range: 1 ~ 100
+		minecraftMaxPassiveMobsPerWorld = 6
+		#e.g. sheep, pig, horse, fox, ...
+		#Range: 1 ~ 10
+		minecraftMaxNeutralMobsPerPlayer = 4
+		#Range: 1 ~ 100
+		minecraftMaxNeutralMobsPerWorld = 20
+		#e.g. slime, spider, zombie, ravager, ...
+		#Range: 1 ~ 10
+		minecraftMaxHostileMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		minecraftMaxHostileMobsPerWorld = 10
+		#e.g. mostly fish
+		#Range: 1 ~ 10
+		minecraftMaxWaterPassiveMobsPerPlayer = 1
+		#Range: 1 ~ 100
+		minecraftMaxWaterPassiveMobsPerWorld = 10
+		#e.g. squid, dolphin, ...
+		#Range: 1 ~ 10
+		minecraftMaxWaterNeutralMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		minecraftMaxWaterNeutralMobsPerWorld = 10
+
+#This sections allows to control specific setting for some mods.
+#You don't need to disable any mod support if the mod is not installed.
+#In general there are 3 settings per supported mod.
+#
+# [Enabled] Enables / disables the optimization for this specific Mod.
+# [MaxEntityPerPlayer] Defines the max. number of entities of a specific type, which could spawn
+#   within the player radius. This value will be adjusted according the server load and game difficulty.
+# [MaxEntityPerWorld] Defines the max. number of entities of a specific type, which could spawn
+#   within the world. This value will be adjusted according the server load and game difficulty.
+#
+#Note: A value of 1 means that you can only have one entity of a specific type (e.g. minecraft:creeper)
+#at a time. You still could have 2 monster from different types likes minecraft:creeper and
+#minecraft:skeleton at the same time.
+[Mod]
+
+	[Mod."Aquaculture 2"]
+		modAquacultureEnabled = true
+		#Range: 1 ~ 10
+		modAquacultureMaxFishPerPlayer = 1
+		#Range: 1 ~ 100
+		modAquacultureMaxFishPerWorld = 8
+
+	[Mod."Ice and Fire: Dragons"]
+		modIceandfireEnabled = true
+		#Range: 1 ~ 10
+		modIceandfireMaxPassiveMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		modIceandfireMaxPassiveMobsPerWorld = 10
+		#Range: 1 ~ 10
+		modIceandfireMaxNeutralMobsPerPlayer = 1
+		#Range: 1 ~ 100
+		modIceandfireMaxNeutralMobsPerWorld = 10
+		#Range: 1 ~ 10
+		modIceandfireMaxHostileMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		modIceandfireMaxHostileMobsPerWorld = 10
+		#Range: 1 ~ 10
+		modIceandfireMaxBossesPerPlayer = 4
+		#Range: 1 ~ 100
+		modIceandfireMaxBossesPerWorld = 20
+
+	[Mod."Mekanism Additions"]
+		modMekanismadditionsEnabled = true
+		#Range: 1 ~ 10
+		modMekanismadditionsMaxHostileMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		modMekanismadditionsMaxHostileMobsPerWorld = 10
+
+	[Mod.Quark]
+		modQuarkEnabled = true
+		#Range: 1 ~ 10
+		modQuarkMaxPassiveMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		modQuarkMaxPassiveMobsPerWorld = 10
+		#Range: 1 ~ 10
+		modQuarkMaxNeutralMobsPerPlayer = 1
+		#Range: 1 ~ 100
+		modQuarkMaxNeutralMobsPerWorld = 10
+		#Range: 1 ~ 10
+		modQuarkMaxHostileMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		modQuarkMaxHostileMobsPerWorld = 10
+
+	[Mod."Savage & Ravage"]
+		modSavageandravageEnabled = true
+		#Range: 1 ~ 10
+		modSavageandravageMaxHostileMobsPerPlayer = 4
+		#Range: 1 ~ 100
+		modSavageandravageMaxHostileMobsPerWorld = 10
+
+	[Mod."The Abyss: Chapter II"]
+		modTheabyssEnabled = false
+		#Range: 1 ~ 10
+		modTheabyssMaxPassiveMobsPerPlayer = 2
+		#Range: 1 ~ 100
+		modTheabyssMaxPassiveMobsPerWorld = 10
+		#Range: 1 ~ 10
+		modTheabyssMaxHostileMobsPerPlayer = 4
+		#Range: 1 ~ 100
+		modTheabyssMaxHostileMobsPerWorld = 10
+
+	[Mod."Dungeons Mod"]
+		modDungeonsmodEnabled = true
+		#Range: 1 ~ 10
+		modDungeonsmodMaxHostileMobsPerPlayer = 4
+		#Range: 1 ~ 100
+		modDungeonsmodMaxHostileMobsPerWorld = 12
+		#Range: 1 ~ 10
+		modDungeonsmodMaxBossesPerPlayer = 2
+		#Range: 1 ~ 100
+		modDungeonsmodMaxBossesPerWorld = 4
+
+[Debug]
+	#Changed the default log level to get more output.
+	logLevel = "info"
+
