@@ -3,8 +3,8 @@
   "weight": 31,
   "display": {
     "scale": 1.0,
-    "xoffset": -25,
-    "yoffset": 75,
+    "xoffset": 0,
+    "yoffset": 0,
     "nameplate": true,
     "particles": true,
     "volume": 0.5,
