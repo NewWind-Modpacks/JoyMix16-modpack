@@ -2,7 +2,7 @@
 #General settings for the mod.
 [general]
 	#Should descriptions only be shown on enchanted books?
-	onlyEnchantedBooks = false
+	onlyEnchantedBooks = true
 	#Should new/blank lines be added between enchantments?
 	addNewLines = true
 	#Should the mod that owns the enchantment be displayed?
