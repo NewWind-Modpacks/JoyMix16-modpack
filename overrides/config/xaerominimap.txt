@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:279
+ignoreUpdate:285
 updateNotification:true
 settingsButton:false
 allowWrongWorldTeleportation:false
@@ -54,7 +54,7 @@ showBiome:true
 showEntityHeight:true
 showFlowers:true
 keepWaypointNames:true
-waypointsDistance:0.0
+waypointsDistanceExp:0
 waypointsDistanceMin:5.0
 waypointTPCommand:/tp @s
 arrowScale:1.5
@@ -95,7 +95,8 @@ alwaysEntityNametags:false
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
-compass:true
+compassLocation:1
+compassScale:1
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
@@ -107,9 +108,12 @@ lightOverlayType:0
 lightOverlayMaxLight:7
 lightOverlayMinLight:0
 lightOverlayColor:13
-uiScale:0
+uiScale:11
 bossHealthPushBox:1
 potionEffectPushBox:1
+minimapFrame:2
+minimapFrameColor:6
+compassColor:1
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
