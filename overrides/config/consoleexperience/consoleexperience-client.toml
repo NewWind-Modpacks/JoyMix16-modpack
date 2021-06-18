@@ -135,7 +135,7 @@
 [selected_item]
 	#Maximum amount of rows to be displayed for held item tooltips.
 	#Range: > 1
-	"Maximum Rows" = 4
+	"Maximum Rows" = 5
 	#Enable tooltip information added by other mods to be included on the tooltip.
 	"Modded Information" = true
 	#Offset on x-axis from screen center.

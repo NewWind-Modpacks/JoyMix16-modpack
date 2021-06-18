@@ -95,7 +95,7 @@
 	[client.window]
 		# Enables custom Minecraft window titles.
 		# Default: true
-		custom_title = true
+		custom_title = false
 		# The simple Minecraft window title.
 		# The current activity, the number of mods loaded and mod versions are not available.
 		# Variables:
