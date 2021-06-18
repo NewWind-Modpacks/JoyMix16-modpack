@@ -3,4 +3,4 @@ The third modpack, this one doesn't have a central objective, but an interest in
 
 At least 3-3.5GiB of RAM is required to play the modpack, ~4GiB is the minimum recomended and ~5GiB should be enough to never run out of RAM in regular scenarios.
 
-OptiFine HD U G7 is recommended and supported.
+OptiFine HD U G8 is recommended and supported, also the only compatible version.
