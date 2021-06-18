@@ -1,0 +1,43 @@
+{
+  "type": "betterendforge:infusion",
+  "input": 
+  {
+     "item": "enigmaticlegacy:void_pearl"
+  },
+  "output": "enigmaticlegacy:enigmatic_item",
+  "time": 6000,
+  "catalysts": [
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "index": 0
+    },
+    {
+      "item": "good_nights_sleep:negatite_block",
+      "index": 1
+    },
+    {
+      "item": "create:refined_radiance_casing",
+      "index": 2
+    },
+    {
+      "item": "buddycards:perfect_buddysteel_block",
+      "index": 3
+    },
+    {
+      "item": "undergarden:forgotten_block",
+      "index": 4
+    },
+    {
+      "item": "aquaculture:neptunium_block",
+      "index": 5
+    },
+    {
+      "item": "iceandfire:dragonsteel_ice_block",
+      "index": 6
+    },
+    {
+      "item": "silentgear:tyrian_steel_block",
+      "index": 7
+    }
+  ]
+} 
