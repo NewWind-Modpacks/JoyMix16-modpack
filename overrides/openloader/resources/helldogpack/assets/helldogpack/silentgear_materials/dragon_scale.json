@@ -1,0 +1,26 @@
+{
+  "tip/all": [
+    {
+      "texture": "silentgear:tip_smooth",
+      "color": "#6a4a95"
+    }
+  ],
+  "tip/part": [
+    {
+      "texture": "silentgear:tip_base"
+    },
+    {
+      "texture": "silentgear:tip",
+      "color": "#6a4a95"
+    },
+    {
+      "texture": "silentgear:tip_shine"
+    }
+  ],
+  "main/fragment": [
+    {
+      "texture": "silentgear:dust",
+      "color": "#6a4a95"
+    }
+  ]
+}
