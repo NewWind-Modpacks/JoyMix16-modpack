@@ -1,0 +1,44 @@
+ {
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/neptunium"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.neptunium"
+  },
+  "stats": {
+    "main": {
+      "durability": 2500.0,
+      "armor_durability": 75.0,
+      "enchantability": 15.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 9.0,
+      "melee_damage": 6.0,
+      "magic_damage": 6.0,
+      "attack_speed": 0,
+      "armor": 20.0,
+      "armor_toughness": 8.0,
+      "magic_armor": 20.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 0.0,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 70.0,
+      "silentgems:chargeability": 1.1
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+}

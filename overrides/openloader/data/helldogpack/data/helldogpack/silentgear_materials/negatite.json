@@ -1,0 +1,44 @@
+ {
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "good_nights_sleep:gems/negatite"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.negatite"
+  },
+  "stats": {
+    "main": {
+      "durability": 1100.0,
+      "armor_durability": 29.0,
+      "enchantability": 1.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 10.0,
+      "melee_damage": 3.0,
+      "magic_damage": 3.0,
+      "attack_speed": 0,
+      "armor": 20.0,
+      "armor_toughness": 24.0,
+      "magic_armor": 20.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 0.0,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 70.0,
+      "silentgems:chargeability": 0.3
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+}

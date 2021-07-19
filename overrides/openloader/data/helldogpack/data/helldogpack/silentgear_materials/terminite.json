@@ -1,0 +1,45 @@
+ {
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "betterendforge:terminite_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.terminite"
+  },
+  "stats": {
+    "main": {
+      "durability": 1230.0,
+      "armor_durability": 26.0,
+      "enchantability": 14.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 3.0,
+      "melee_damage": 8.5,
+      "magic_damage": 8.5,
+      "attack_speed": 0,
+      "armor": 19.0,
+      "armor_toughness": 4.0,
+      "magic_armor": 19.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 1.0,
+      "knockback_resistance": 0.2,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 60.0,
+      "silentgems:chargeability": 1.0
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+}

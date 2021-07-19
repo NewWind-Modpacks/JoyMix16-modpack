@@ -1,0 +1,51 @@
+ {
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "rock, gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "subs": {
+      "rod": {
+        "item": "forbidden_arcanus:draco_arcanus_staff"
+      }
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.draco_arcanus_staff"
+  },
+  "stats": {
+    "rod": {
+      "durability": {
+        "mul2": 1.1
+      },
+      "enchantability": {
+        "mul2": 4.0
+      },
+      "harvest_level": {
+        "max": 3.0
+      },
+      "harvest_speed": {
+        "mul2": 0.275
+      },
+      "melee_damage": {
+        "mul2": 0.333
+      },
+      "magic_damage": {
+        "mul2": 0.3
+      },
+      "ranged_damage": {
+        "mul2": 0.2
+      },
+      "rarity": 55.0
+    }
+  },
+  "traits": {
+    "rod": [
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "availability": {
     "tier": 5,
     "visible": true,
-    "gear_blacklist": ["tool","projectile"],
+    "gear_blacklist": ["projectile"],
     "can_salvage": true
   },
   "crafting_items": {
@@ -18,14 +18,6 @@
   },
   "stats": {
     "coating": {
-      "durability": [
-        {
-          "mul2": 0.6
-        },
-        {
-          "add": 7.0
-        }
-      ],
       "armor": {
         "mul2": 0.2
       },

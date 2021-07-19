@@ -1,0 +1,78 @@
+ {
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": ["armor","curio"],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "undergarden:forgotten_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.forgotten"
+  },
+  "stats": {
+    "coating": {
+      "durability": [
+        {
+          "mul2": 4.45
+        },
+        {
+          "add": 7.0
+        }
+      ],
+      "harvest_speed": {
+        "mul2": 1
+      },
+      "harvest_level": {
+        "max": 4.0
+      },
+      "melee_damage": {
+        "mul2": 0.5
+      },
+      "magic_damage": {
+        "mul2": 0.5
+      },
+      "ranged_damage": {
+        "mul2": 0.35
+      },
+      "ranged_speed": {
+        "mul2": 0.3
+      },
+      "projectile_speed": {
+        "mul2": 0.6
+      },
+      "projectile_speed": {
+        "add": 0.15
+      },
+      "enchantability": {
+        "mul2": -1.0
+      }
+    }
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "silentgear:light",
+        "level": 5
+      },
+      {
+        "name": "iafgear:phantasmal",
+        "level": 1
+      },
+      {
+        "name": "silentgear:renew",
+        "level": 2
+      },
+      {
+        "name": "silentgems:soul/aerial",
+        "level": 3
+      }
+    ]
+  }
+}

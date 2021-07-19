@@ -1,0 +1,44 @@
+ {
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "good_nights_sleep:storage_blocks/necrum"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.necrum"
+  },
+  "stats": {
+    "main": {
+      "durability": 131.0,
+      "armor_durability": 5.0,
+      "enchantability": 0.0,
+      "harvest_level": 1.0,
+      "harvest_speed": 6.0,
+      "melee_damage": 2.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0,
+      "armor": 10.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 10.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 1.0,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 10.0,
+      "silentgems:chargeability": 1
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+}

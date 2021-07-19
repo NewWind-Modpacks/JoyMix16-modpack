@@ -1,0 +1,59 @@
+ {
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "betterendforge:aeternium_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.aeternium"
+  },
+  "stats": {
+    "coating": {
+      "durability": [
+        {
+          "mul2": 0.8
+        }
+      ],
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "harvest_level": {
+        "max": 5.0
+      },
+      "melee_damage": {
+        "mul2": 0.5
+      },
+      "magic_damage": {
+        "mul2": 0.5
+      },
+      "armor": {
+        "mul2": 0.25
+      },
+      "armor_durability": {
+        "mul2": 0.5
+      },
+      "armor_toughness": {
+        "add": 2.5
+      },
+      "knockback_resistance": {
+        "add": 3.0
+      },
+      "enchantability": {
+        "mul2": 0.3
+      }
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+}

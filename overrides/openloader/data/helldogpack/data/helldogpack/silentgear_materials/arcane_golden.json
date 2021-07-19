@@ -1,0 +1,120 @@
+{
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "forbidden_arcanus:arcane_gold_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.arcane_golden"
+  },
+  "stats": {
+    "main": {
+      "durability": 1861.0,
+      "armor_durability": 38.0,
+      "enchantability": 26.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 9.0,
+      "melee_damage": 3.5,
+      "magic_damage": 3.5,
+      "attack_speed": 0.0,
+      "armor": 22.0,
+      "magic_armor": 22.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 0.35,
+      "projectile_speed": 1.15,
+      "projectile_accuracy": 1.0,
+      "rarity": 75.0,
+      "silentgems:chargeability": 1.3
+    },
+    "tip": {
+      "durability": {
+        "add": 200.0
+      },
+      "armor_durability": {
+        "add": 4.0
+      },
+      "harvest_speed": {
+        "add": 4.0
+      },
+      "ranged_speed": {
+        "add": 0.2
+      },
+      "rarity": {
+        "add": 35.0
+      }
+    },
+    "coating": {
+      "durability": {
+        "mul2": 0.4
+      },
+      "armor_durability": {
+        "mul2": 0.4
+      },
+      "rarity": {
+        "add": 15.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:brilliant",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:primary_material"
+          }
+        ]
+      },
+      {
+        "name": "silentgear:malleable",
+        "level": 1
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 3
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:malleable",
+        "level": 1
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 3
+      }
+    ],
+    "coating": [
+      {
+        "name": "silentgear:brilliant",
+        "level": 1
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 3
+      }
+    ]
+  }
+} 

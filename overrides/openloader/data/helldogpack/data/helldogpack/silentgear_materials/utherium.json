@@ -1,0 +1,44 @@
+ {
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "undergarden:utherium_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.utherium"
+  },
+  "stats": {
+    "main": {
+      "durability": 1279.0,
+      "armor_durability": 36.0,
+      "enchantability": 13.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 8.0,
+      "melee_damage": 3.5,
+      "magic_damage": 3.5,
+      "attack_speed": 0,
+      "armor": 20.0,
+      "armor_toughness": 12.0,
+      "magic_armor": 18.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 1.0,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 20.0,
+      "silentgems:chargeability": 0.7
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+}

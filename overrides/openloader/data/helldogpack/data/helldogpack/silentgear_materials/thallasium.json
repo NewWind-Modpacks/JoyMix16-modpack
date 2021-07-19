@@ -1,0 +1,44 @@
+ {
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "betterendforge:thallasium_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.thallasium"
+  },
+  "stats": {
+    "main": {
+      "durability": 320.0,
+      "armor_durability": 17.0,
+      "enchantability": 12.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 1.5,
+      "melee_damage": 7.0,
+      "magic_damage": 7.0,
+      "attack_speed": 0,
+      "armor": 12.0,
+      "armor_toughness": 0.0,
+      "magic_armor": 12.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 1.0,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 35.0,
+      "silentgems:chargeability": 0.8
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "endrem:end_crystal_fragment"
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.end_crystal"
+  },
+  "stats": {
+    "main": {
+      "durability": 1561.0,
+      "armor_durability": 33.0,
+      "enchantability": 10.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 11.0,
+      "melee_damage": 5.0,
+      "magic_damage": 5.0,
+      "attack_speed": 0.0,
+      "armor": 20.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 8.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 8.0,
+      "knockback_resistance": 4.0,
+      "magic_armor": 20.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": -0.05,
+      "projectile_speed": 0.35,
+      "projectile_accuracy": 1.175,
+      "rarity": 80.0,
+      "silentgems:chargeability": 1.45
+    }
+  },
+  "traits": {
+    "main": [
+    ]
+  }
+} 

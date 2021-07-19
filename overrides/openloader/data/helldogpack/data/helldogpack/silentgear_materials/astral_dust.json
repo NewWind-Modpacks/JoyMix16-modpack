@@ -1,0 +1,55 @@
+ {
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "dust"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "subs": {
+      "tip": {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.astral_dust"
+  },
+  "stats": {
+    "tip": {
+      "harvest_speed": {
+        "mul2": 0.5
+      },
+      "melee_damage": {
+        "add": 4.0
+      },
+      "magic_damage": {
+        "add": 4.0
+      },
+      "ranged_speed": {
+        "mul2": 0.2
+      },
+      "ranged_damage": {
+        "add": 3.0
+      },
+      "rarity": {
+        "add": 25.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "silentgear:ancient",
+        "level": 3
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 1
+      }
+    ]
+  }
+}

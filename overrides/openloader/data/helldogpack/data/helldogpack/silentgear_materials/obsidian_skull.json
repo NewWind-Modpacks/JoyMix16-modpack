@@ -1,0 +1,36 @@
+ {
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "dust"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "subs": {
+      "tip": {
+        "item": "forbidden_arcanus:obsidian_skull"
+      }
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.obsidian_skull"
+  },
+  "stats": {
+    "tip": {
+      "rarity": {
+        "add": 20.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "silentgear:magmatic",
+        "level": 1
+      }
+    ]
+  }
+}

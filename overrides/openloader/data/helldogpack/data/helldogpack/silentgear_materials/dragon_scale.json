@@ -1,0 +1,51 @@
+ {
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "dust"
+    ],
+    "visible": true,
+    "gear_blacklist": ["armor","curio"],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "subs": {
+      "tip": {
+        "item": "forbidden_arcanus:dragon_scale"
+      }
+    }
+  },
+  "name": {
+    "translate": "material.helldogpack.dragon_scale"
+  },
+  "stats": {
+    "tip": {
+      "durability": {
+        "mul2": -0.15
+      },
+      "enchantability": {
+        "mul2": 2.0
+      },
+      "harvest_level": {
+        "max": 4.0
+      },
+      "harvest_speed": {
+        "add": 5.0
+      },
+      "melee_damage": {
+        "add": 4.0
+      },
+      "rarity": {
+        "add": 20.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "silentgear:magmatic",
+        "level": 1
+      }
+    ]
+  }
+}
