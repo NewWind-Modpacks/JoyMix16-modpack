@@ -1,10 +1,11 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:285
+ignoreUpdate:300
 updateNotification:true
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
+debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
 minimap:true
 caveMaps:1
@@ -101,7 +102,6 @@ caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:100
-ignoreHeightmaps:false
 waypointsBottom:false
 minimapShape:0
 lightOverlayType:0
@@ -114,6 +114,8 @@ potionEffectPushBox:1
 minimapFrame:2
 minimapFrameColor:6
 compassColor:1
+itemFramesOnRadar:false
+showDimensionName:false
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
