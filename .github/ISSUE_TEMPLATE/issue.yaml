@@ -56,12 +56,12 @@ body:
     id: logs
     attributes:
       label: Archivo de log
-      description: Pega aqui un link de Pastebin, Hastebin o Gists a tu archivo de `latest.log`
+      description: Pega aqui un link de Pastebin, Hastebin o GitHub Gists a tu archivo de `latest.log`
   - type: textarea
     id: debuglogs
     attributes:
       label: Archivo de debugging
-      description: Pega aqui un link de Pastebin, Hastebin o Gists a tu archivo de `debug.log`
+      description: Pega aqui un link de Pastebin, Hastebin o GitHub Gists a tu archivo de `debug.log`
   - type: textarea
     id: comments
     attributes:
