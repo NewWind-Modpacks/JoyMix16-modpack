@@ -10,4 +10,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: ${{ github.event.repository.full_name }}-${{ github.ref }}/**/*
+          path: ${{ github.event.repository.full_name }}-${{ github.ref_name }}/**/*
