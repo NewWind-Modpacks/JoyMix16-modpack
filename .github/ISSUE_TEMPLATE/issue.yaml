@@ -11,8 +11,14 @@ body:
     id: what-happened
     attributes:
       label: Que ha pasado?
-      description: Tambien nos puedes contar que esperabas que pasara
-      value: "A bug happened!"
+      value: "Que esto no ocurra!"
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-happen
+    attributes:
+      label: Que esperabas que pasara?
+      value: "Que todo funcione!"
     validations:
       required: true
   - type: dropdown
