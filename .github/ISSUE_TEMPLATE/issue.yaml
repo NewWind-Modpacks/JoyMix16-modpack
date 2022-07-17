@@ -1,0 +1,69 @@
+name: Reporte de Error
+description: Crea un reporte de error para notificar algun problema en JoyMix
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por tomar el tiempo de rellenar este reporte de error!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Que ha pasado?
+      description: Tambien nos puedes contar que esperabas que pasara
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Versión
+      description: Que versión de JoyMix estabas usando?
+      options:
+        - 1.1.B1 (Latest Unstable)
+        - 1.1.A2
+        - 1.1.A1
+        - 1.0.1 (Latest Stable)
+        - 1.0
+        - 0.3.A1
+        - 0.A3
+        - 0.A1
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: En que sistemas operativos estas encontrando el problema?
+      multiple: true
+      options:
+        - MacOS
+        - Windows
+        - Linux
+  - type: dropdown
+    id: javaversion
+    attributes:
+      label: Que versión de java estás usando?
+      multiple: true
+      options:
+        - Java 8
+        - Java 11
+        - Java 16
+        - Java 17
+        - Otra (Por favor pon tu version de Java en los comentarios)
+        - No lo se
+  - type: textarea
+    id: logs
+    attributes:
+      label: Archivo de log
+      description: Pega aqui un link de Pastebin, Hastebin o Gists a tu archivo de `latest.log`
+  - type: textarea
+    id: debuglogs
+    attributes:
+      label: Archivo de debugging
+      description: Pega aqui un link de Pastebin, Hastebin o Gists a tu archivo de `debug.log`
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comentarios
+      description: Alguna otra informacion que creas que nos puede ser relevante? Has hecho algun cambio al modpack (añadir algun mod, borrar algun mod, etc.)?
