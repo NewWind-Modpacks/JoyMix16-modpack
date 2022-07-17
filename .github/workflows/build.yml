@@ -4,8 +4,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: wget http://github.com/${{ github.event.repository.full_name }}/archive/${{ github.ref }}
-      - run: tar -xvzf $(ls).tar.gz
+      - run: wget http://github.com/${{ github.event.repository.full_name }}/archive/${{ github.ref }}.tar.gz
+      - run: tar -xvzf $(ls)
       - run: zip -r output.zip $(ls --hide=*.tar.gz)/*
       - uses: actions/upload-artifact@v3
         with:
