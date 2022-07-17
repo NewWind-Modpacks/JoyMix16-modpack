@@ -12,16 +12,16 @@
 	"Entity Size" = 60
 	#Offset on x-axis from original position on left side.
 	#Range: > -2147483648
-	"Left X-Offset" = 0
+	"Left X-Offset" = -25
 	#Offset on y-axis from original position on left side.
 	#Range: > -2147483648
-	"Left Y-Offset" = 0
+	"Left Y-Offset" = 75
 	#Offset on x-axis from original position on right side.
 	#Range: > -2147483648
-	"Right X-Offset" = 0
+	"Right X-Offset" = -25
 	#Offset on y-axis from original position on right side.
 	#Range: > -2147483648
-	"Right Y-Offset" = 0
+	"Right Y-Offset" = 75
 	#Play ambient sounds when clicking on menu mobs.
 	"Play Sounds" = true
 	#Hurt entity when clicked and there is no ambient sound to play.
