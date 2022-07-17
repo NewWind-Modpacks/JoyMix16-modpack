@@ -35,6 +35,7 @@ body:
         - 0.3.A1
         - 0.A3
         - 0.A1
+        - Otra (Por favor pon tu version de JoyMix en los comentarios)
     validations:
       required: true
   - type: dropdown
