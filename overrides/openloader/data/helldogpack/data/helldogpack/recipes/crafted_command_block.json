@@ -1,0 +1,43 @@
+{
+  "type": "betterendforge:infusion",
+  "input": 
+  {
+     "item": "minecraft:dragon_egg"
+  },
+  "output": "nwtweaks:crafted_command_block",
+  "time": 1200,
+  "catalysts": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot",
+      "index": 0
+    },
+    {
+      "item": "silentgems:super_charging_agent",
+      "index": 1
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "index": 2
+    },
+    {
+      "item": "iceandfire:dragonsteel_lightning_ingot",
+      "index": 3
+    },
+    {
+      "item": "iceandfire:dragonsteel_ice_ingot",
+      "index": 4
+    },
+    {
+      "item": "iceandfire:dragonsteel_fire_ingot",
+      "index": 5
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "index": 6
+    },
+    {
+      "item": "silentgems:super_charging_agent",
+      "index": 7
+    }
+  ]
+} 
