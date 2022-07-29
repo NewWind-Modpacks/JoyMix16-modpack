@@ -23,6 +23,8 @@
 		#Note that disabling oil will make some items uncraftable unless recipes are changed
 		#Range: > 0
 		chance = 6
+		#The dimensions that oil lakes are not allow to generate in
+		dimensionBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
 
 	#Configs for specific ores. Set veinCount to zero to disable an ore.
 	[world.ores]
@@ -30,30 +32,30 @@
 		[world.ores.copper]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 8
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
-			minHeight = 40
+			minHeight = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
-			maxHeight = 90
+			maxHeight = 0
 
 		[world.ores.tin]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 8
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
-			minHeight = 20
+			minHeight = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
-			maxHeight = 80
+			maxHeight = 0
 
 		[world.ores.silver]
 			#Number of veins per chunk
@@ -114,16 +116,16 @@
 		[world.ores.zinc]
 			#Number of veins per chunk
 			#Range: > 0
-			veinCount = 4
+			veinCount = 0
 			#Size of veins
 			#Range: 0 ~ 100
-			veinSize = 8
+			veinSize = 0
 			#Minimum Y-coordinate (base height) of veins
 			#Range: 0 ~ 255
-			minHeight = 20
+			minHeight = 0
 			#Maximum Y-coordinate (highest level) of veins
 			#Range: 0 ~ 255
-			maxHeight = 60
+			maxHeight = 0
 
 		[world.ores.bismuth]
 			#Number of veins per chunk
