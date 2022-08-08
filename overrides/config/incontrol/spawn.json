@@ -17,7 +17,7 @@
 		"gamestage": "well_equipped_master",
 		"dimension": "minecraft:overworld",
 		"maxheight": 20,
-		"healthmultiply": 12,
+		"healthmultiply": 18.0,
 		"speedmultiply": 3,
 		"damagemultiply": 14.0,
 		"potion": ["minecraft:regeneration,1000000,5", "minecraft:jump_boost,1000000,2", "quark:resilience,1000000,0"]
@@ -29,7 +29,7 @@
 		"gamestage": "master_mode",
 		"dimension": "minecraft:overworld",
 		"maxheight": 20,
-		"healthmultiply": 12,
+		"healthmultiply": 18.0,
 		"speedmultiply": 3,
 		"damagemultiply": 14.0,
 		"potion": ["minecraft:regeneration,1000000,4", "minecraft:jump_boost,1000000,1"]
@@ -39,7 +39,7 @@
 		"result": "default",
 		"hostile": true,
 		"gamestage": "well_equipped_master",
-		"healthmultiply": 8,
+		"healthmultiply": 12.0,
 		"speedmultiply": 2.8,
 		"damagemultiply": 8.0,
 		"potion": ["minecraft:regeneration,1000000,5", "minecraft:jump_boost,1000000,2", "quark:resilience,1000000,0"]
@@ -49,7 +49,7 @@
 		"result": "default",
 		"hostile": true,
 		"gamestage": "master_mode",
-		"healthmultiply": 8,
+		"healthmultiply": 12.0,
 		"speedmultiply": 2.8,
 		"damagemultiply": 8.0,
 		"potion": ["minecraft:regeneration,1000000,4", "minecraft:jump_boost,1000000,1"]
@@ -62,9 +62,9 @@
 		"dimension": "minecraft:overworld",
 		"gamestage": "well_equipped_expert",
 		"maxheight": 20,
-		"healthmultiply": 3,
+		"healthmultiply": 6,
 		"speedmultiply": 2,
-		"damagemultiply": 3.7,
+		"damagemultiply": 15.0,
 		"potion": ["minecraft:regeneration,1000000,3", "minecraft:jump_boost,1000000,1"]
   },
   {
@@ -74,9 +74,9 @@
 		"gamestage": "expert_mode",
 		"dimension": "minecraft:overworld",
 		"maxheight": 20,
-		"healthmultiply": 3,
+		"healthmultiply": 6,
 		"speedmultiply": 2,
-		"damagemultiply": 3.7,
+		"damagemultiply": 15.0,
 		"potion": "minecraft:regeneration,1000000,2"
   },
   {
@@ -85,9 +85,9 @@
 		"hostile": true,
 		"dimension": "minecraft:overworld",
 		"gamestage": "well_equipped_expert",
-		"healthmultiply": 1.75,
+		"healthmultiply": 4,
 		"speedmultiply": 1.4,
-		"damagemultiply": 2.0,
+		"damagemultiply": 6.0,
 		"potion": ["minecraft:regeneration,1000000,3", "minecraft:jump_boost,1000000,1"]
   },
   {
@@ -95,9 +95,9 @@
 		"result": "default",
 		"hostile": true,
 		"gamestage": "expert_mode",
-		"healthmultiply": 1.75,
+		"healthmultiply": 4,
 		"speedmultiply": 1.4,
-		"damagemultiply": 2.0
+		"damagemultiply": 6.0
   },
 
   {

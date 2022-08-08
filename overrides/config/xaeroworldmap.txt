@@ -1,4 +1,4 @@
-ignoreUpdate:108
+ignoreUpdate:139
 updateNotification:true
 differentiateByServerAddress:true
 netherlikeCaveMapAllowed:true
@@ -11,7 +11,6 @@ terrainSlopes:2
 terrainDepth:true
 footsteps:true
 flowers:true
-compression:true
 coordinates:false
 biomeColorsVanillaMode:true
 waypoints:true
@@ -23,4 +22,13 @@ reloadVersion:1
 reloadEverything:false
 zoomButtons:true
 waypointBackgrounds:true
+detectAmbiguousY:true
+showDisabledWaypoints:false
+closeWaypointsWhenHopping:true
+adjustHeightForCarpetLikeBlocks:true
+onlyCurrentMapWaypoints:false
+minZoomForLocalWaypoints:0.0
+arrowColour:-2
+minimapRadar:true
+renderWaypoints:true
 globalVersion:8

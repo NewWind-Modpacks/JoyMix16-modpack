@@ -60,7 +60,7 @@ boxRightX = 5
 boxTopY = -1
 #The distance to the bottom side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxBottomY = -1
+boxBottomY = 5
 #Color of the border of the box (0 to disable)
 boxBorderColor = "ff999999"
 #How much the border should be offset (i.e. to create an 'outer' border)
@@ -82,6 +82,8 @@ chestContentsBorderColor = "ff006699"
 showBreakProgress = 1
 #true means shows harvestability with vanilla style icons
 harvestStyleVanilla = true
+#This is a list of entities that will not be rendered by TOP. This option also works if it is set client-side alone
+renderBlacklist = []
 
 [style]
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."

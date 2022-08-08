@@ -11,7 +11,7 @@
 	#Always show player coordinates on screen.
 	"Coordinate Display" = false
 	#Add a button for closing to every container.
-	"Close Button" = true
+	"Close Button" = false
 	#Replace boring dirt backgrounds with the fancy main menu panorama and some bold fonts.
 	"Fancy Menus" = true
 	#Sum up stacks of equal items on shulker box tooltip.
@@ -101,7 +101,7 @@
 [paper_doll]
 	#Offset on x-axis from original doll position.
 	#Range: > -2147483648
-	X-Offset = 0
+	X-Offset = 90
 	#Display paper doll while performing these actions.
 	#Allowed Values: SPRINTING, SWIMMING, CRAWLING, CROUCHING, FLYING, GLIDING, RIDING, SPIN_ATTACKING, USING
 	"Display Actions" = ["SPRINTING", "SWIMMING", "CRAWLING", "CROUCHING", "FLYING", "GLIDING"]
@@ -112,13 +112,13 @@
 	"Display Time" = 12
 	#Define a screen corner to display the paper doll in.
 	#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-	"Screen Corner" = "TOP_RIGHT"
+	"Screen Corner" = "TOP_LEFT"
 	#Scale of paper doll. Works in tandem with "GUI Scale" option in "Video Settings".
 	#Range: 1 ~ 24
 	Scale = 4
 	#Offset on y-axis from original doll position.
 	#Range: > -2147483648
-	Y-Offset = 0
+	Y-Offset = 15
 	#Set axis the player head can move on.
 	#Allowed Values: YAW, PITCH, BOTH
 	"Head Movement" = "YAW"
