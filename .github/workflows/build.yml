@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Automatic Artifacting
 on: [push]
 jobs:
   Explore-GitHub-Actions:
@@ -10,4 +10,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: ${{ github.event.repository.name }}-${{ github.ref_name }}/**/*
+          path: outpùt.zip
