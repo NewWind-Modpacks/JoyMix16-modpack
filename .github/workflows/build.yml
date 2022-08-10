@@ -7,6 +7,7 @@ jobs:
       - run: wget http://github.com/${{ github.event.repository.full_name }}/archive/${{ github.ref }}.tar.gz
       - run: tar -xvzf $(ls)
       - run: zip -r output.zip $(ls --hide=*.tar.gz)/*
+      - run: tree
       - uses: actions/upload-artifact@v3
         with:
           name: output
