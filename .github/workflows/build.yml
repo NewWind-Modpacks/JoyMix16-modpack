@@ -11,4 +11,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: output
-          path: outpùt.zip
+          path: output.zip
